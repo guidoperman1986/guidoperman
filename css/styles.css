@@ -1,0 +1,176 @@
+body{
+    color: #40514E;
+    margin:0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+
+h1{
+    color: #66BFBF;
+    margin: 50px auto 0 auto;    /* rem se integro en css3, no es afectado por otros tamaños*/
+    font-size: 5.62rem; /* em vs px = cuando usas em, se hereda el tamaño declarado en el papa al hijo. Si body tendria un tamaño, entonces ese tamaño se sumaria al tamaño declarado en esta linea*/
+    font-family: 'Sacramento', cursive;  /* con px, eso no pasa, no hay herencia */
+    line-height: 2;
+}   
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted #E4F6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.footer-link{
+    margin: 15px 10px 15px 10px;
+    font-weight: bold;
+    
+}
+
+.skill-row{
+    margin: 20px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.photo {    
+    width: 190px;
+    height: 240px;    
+}
+
+.code-img{
+    margin-right: 30px;
+    float: left;
+    width: 25%;
+}
+
+.second-image{
+    margin-left: 30px;
+    float: right;
+    width: 25%;
+}
+
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{      
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.top-cloud{
+    position: absolute;
+    top:50px;
+    right: 300px;
+}    
+
+.bottom-cloud{
+    position: absolute;
+    bottom:300px;
+    left:300px
+}
+
+.profile {
+    position: relative;
+}
+
+
+.p-center{
+    text-align: center;    
+    width: 30%;
+    margin: 50px auto 50px auto;    
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    font-weight: bold;
+}
+
+.p-skills{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    font-weight: bold;
+}
+
+a {
+    color:#11999e;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+a:hover {
+    color:#EAF6F6;
+    text-decoration: underline;    
+}
+
+.copyright{
+    color: #E4F6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.btn{
+    color:#fff;
+    border-radius: 20px;
+    font-weight: bolder;    
+    background-color: #11999E;
+    padding: 10px 15px;
+}
+
+.img-footer{
+    margin-right: 5px;
+    width:  20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+
+
+/* 
+    hay tags que son block, o sea que toman todo el ancho por ejemplo <p>
+    hay tags que no son block, <span><img>
+    para elementos que son block, se puede agregar propiedad inline-block al css
+
+    relative position: 
+        no modifica la posicion de otros elementos que esten alrededor de esa caja
+        agrega un espacio donde deberia estar la caja
+
+    absolute position:
+        posiciona la posicion de la caja segun el elemento padre
+        afecta el flujo html
+
+
+*/
